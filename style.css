@@ -196,6 +196,20 @@ main {
     background-position: center;
     background-repeat: no-repeat;
 }
+.currency-table--date {
+    width: 190px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 8px;
+    background-color: var(--soft-orange);
+    border-radius: 8px;
+}
+.currency-table--date p {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: var(--warm-black);
+}
 .main-comition-container {
     width: 100%;
     min-width: 230px;
@@ -203,6 +217,7 @@ main {
     height: 360px;
     margin: 0 auto;
     font-family: 'inter', sans-serif;
+    text-align: center;
 }
 .main-comition-container--title {
     width: 70%;
@@ -224,6 +239,7 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: var(--just-white);
+    border-radius: 15px;
 }
 .main-comition-container--fees p {
     text-align: center;
@@ -242,4 +258,18 @@ main {
     line-height: 1.6rem;
     font-family: 'inter', sans-serif;
     color: #757575;
+}
+.fees-container--date {
+    width: 190px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 8px;
+    background-color: var(--soft-blue);
+    border-radius: 8px;
+}
+.fees-container--date p {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: var(--warm-black);
 }
