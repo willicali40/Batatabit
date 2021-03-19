@@ -437,3 +437,18 @@ main {
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(89, 73 , 30, 0.16);
 }
+.recommended {
+    width: 100px;
+    height: 31px;
+    position: absolute;
+    top: -15px;
+    left: calc(40% - 25px);
+    padding-top: 9px;
+    border-radius: 8px;
+    background-color: var(--bitcoin-orange);
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.3rem;
+    font-weight: 500;
+    color: var(--just-white);
+}
