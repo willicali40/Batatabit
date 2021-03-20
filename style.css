@@ -452,3 +452,28 @@ main {
     font-weight: 500;
     color: var(--just-white);
 }
+.plan-card--title {
+    padding-top: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: black;
+}
+.plan-card--price{
+    padding: 5px 0;
+    font-size: 5.2rem;
+    font-weight: bold;
+    line-height: 6.3rem;
+    color: black;
+}
+.plan-card--price span {
+    width: 8px;
+    height: 15px;
+    font-size: 1.2rem;
+    font-weight: 300;
+    vertical-align: 30px;
+}
+.plan-card--saving {
+    font-size: 1.2rem;
+    color: #757575;
+}
